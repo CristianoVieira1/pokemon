@@ -1,0 +1,60 @@
+import {
+  heightPercentageToDP,
+  widthPercentageToDP,
+} from '../utils/responsivity'
+
+export default {
+  DEVICE: {
+    width: widthPercentageToDP('100%'),
+    height: heightPercentageToDP('100%'),
+  },
+  border: {
+    radius: '0.4rem',
+  },
+  FONTS: {
+    sizes: {
+      xxsmall: '1.1rem',
+      xsmall: '1.2rem',
+      small: '1.4rem',
+      medium: '1.6rem',
+      large: '1.8rem',
+      xlarge: '2.0rem',
+      xxlarge: '2.8rem',
+    },
+  },
+  COLORS: {
+    white: '#FFFFFF',
+    orange: '#FF8200',
+    danger: '#DC2626',
+    dangerText: '#FF0000',
+    primary: '#023F88',
+    secondaryBlue: '#0066A5',
+    darkBlue: '#071C33',
+    lightPrimary: '#E6ECF3',
+    lightBlue: '#e3ebf3',
+    navy: '#0F2F5B',
+    lightGray: '#9CA3AF',
+    smokeWhite: '#F4F4F7',
+    green: '#4FA630',
+    gray: '#a9adb7',
+    darkGray: '#1F2937',
+    opacityBlack: '#575F69',
+    toggle: '#0066A5',
+    black: '#000000',
+    darkPlaceholder: '#0A1C31',
+    placeholderTextColor: '#A2A9B4',
+    red: '#DE1818',
+    transparent: '#00000000',
+    separator: '#E3E3E8',
+    bloqueioLinear: 'linear-gradient(#434343, #000000);',
+  },
+  spacings: {
+    xxsmall: '0.8rem',
+    xsmall: '1.6rem',
+    small: '2.4rem',
+    medium: '3.2rem',
+    large: '4.0rem',
+    xlarge: '4.8rem',
+    xxlarge: '5.6rem',
+  },
+}
